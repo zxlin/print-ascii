@@ -1,0 +1,19 @@
+{
+  "name": "print-ascii",
+  "version": "0.0.1",
+  "description": "Print ascii characters in plain English",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxlin/print-ascii.git"
+  },
+  "author": "Zhi Xiang Lin <zhixiang94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxlin/print-ascii/issues"
+  },
+  "homepage": "https://github.com/zxlin/print-ascii#readme"
+}
