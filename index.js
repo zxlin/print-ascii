@@ -42,10 +42,10 @@ function printAscii(w) {
   var r = '';
   for (var i = 0, len = w.length; i < len; i++) {
     var c = w.charCodeAt(i);
-    if (c >= 33 && c <= 126) {
-      r += w.charAt(i);
-    } else {
+    if (c <= 32 || c == 127) {
       r += '[' + _printAsciiMapping[c] + ']';
+    } else {
+      r += w.charAt(i);
     }
   }
   return r;
